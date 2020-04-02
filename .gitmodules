@@ -4,3 +4,6 @@
 [submodule "asoft-logging"]
 	path = asoft-logging
 	url = https://github.com/andylamax/asoft-logging.git
+[submodule "asoft-networking"]
+	path = asoft-networking
+	url = https://github.com/andylamax/asoft-networking.git

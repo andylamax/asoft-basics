@@ -1,5 +1,6 @@
 object versions {
     const val kotlin = "1.4-M1"
+    const val ktor = "1.3.2-1.4-M1"
 
     object asoft {
         const val core = "1.0.0-alpha2"
