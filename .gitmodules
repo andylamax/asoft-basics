@@ -1,0 +1,3 @@
+[submodule "asoft-storage"]
+	path = asoft-storage
+	url = https://github.com/andylamax/asoft-storage.git
