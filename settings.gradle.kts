@@ -29,3 +29,4 @@ pluginManagement {
 rootProject.name = "asoft-basics"
 
 include(":asoft-storage")
+include(":asoft-logging")

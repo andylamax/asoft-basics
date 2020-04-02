@@ -1,3 +1,6 @@
 [submodule "asoft-storage"]
 	path = asoft-storage
 	url = https://github.com/andylamax/asoft-storage.git
+[submodule "asoft-logging"]
+	path = asoft-logging
+	url = https://github.com/andylamax/asoft-logging.git
