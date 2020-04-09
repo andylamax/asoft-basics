@@ -1,6 +1,7 @@
 object versions {
     const val kotlin = "1.4-M1"
     const val ktor = "1.3.2-1.4-M1"
+    const val neo4j = "3.2.9"
 
     object asoft {
         const val core = "1.0.0-alpha3"
@@ -13,6 +14,10 @@ object versions {
 
     object android {
         const val build_tools = "3.6.0"
+    }
+
+    object google {
+        const val maps = "17.0.0"
     }
 
 //    object androidx {

@@ -10,3 +10,12 @@
 [submodule "asoft-email-gateway"]
 	path = asoft-email-gateway
 	url = https://github.com/andylamax/asoft-email-gateway.git
+[submodule "asoft-sms-gateway"]
+	path = asoft-sms-gateway
+	url = https://github.com/andylamax/asoft-sms-gateway.git
+[submodule "asoft-neo4j"]
+	path = asoft-neo4j
+	url = https://github.com/andylamax/asoft-neo4j.git
+[submodule "asoft-geo"]
+	path = asoft-geo
+	url = https://github.com/andylamax/asoft-geo.git
