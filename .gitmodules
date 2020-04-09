@@ -7,3 +7,6 @@
 [submodule "asoft-networking"]
 	path = asoft-networking
 	url = https://github.com/andylamax/asoft-networking.git
+[submodule "asoft-email-gateway"]
+	path = asoft-email-gateway
+	url = https://github.com/andylamax/asoft-email-gateway.git

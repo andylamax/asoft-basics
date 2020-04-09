@@ -3,7 +3,7 @@ object versions {
     const val ktor = "1.3.2-1.4-M1"
 
     object asoft {
-        const val core = "1.0.0-alpha2"
+        const val core = "1.0.0-alpha3"
     }
 
 //    object kotlinx {

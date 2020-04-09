@@ -1,5 +1,5 @@
 plugins {
-    `kotlin-dsl`
+    id("org.gradle.kotlin.kotlin-dsl") version "1.3.5"
 }
 
 repositories {
@@ -18,5 +18,5 @@ object versions {
 
 dependencies {
     api("com.android.tools.build:gradle:${versions.android.build_tools}")
-
+    api("org.jetbrains.kotlin:kotlin-gradle-plugin:${versions.kotlin}")
 }
