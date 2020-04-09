@@ -19,3 +19,6 @@
 [submodule "asoft-geo"]
 	path = asoft-geo
 	url = https://github.com/andylamax/asoft-geo.git
+[submodule "asoft-ui"]
+	path = asoft-ui
+	url = https://github.com/andylamax/asoft-ui.git

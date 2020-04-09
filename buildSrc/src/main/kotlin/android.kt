@@ -11,7 +11,7 @@ fun LibraryExtension.configureAndroid() {
     sourceSets {
         getByName("main") {
             manifest.srcFile("src/androidMain/AndroidManifest.xml")
-            resources.srcDirs("src/androidMain/resources")
+            res.srcDirs("src/androidMain/resources")
         }
     }
 
@@ -19,8 +19,8 @@ fun LibraryExtension.configureAndroid() {
         getByName("release") {
             isMinifyEnabled = false
             proguardFiles(
-                getDefaultProguardFile("proguard-android-optimize.txt"),
-                "proguard-rules.pro"
+                    getDefaultProguardFile("proguard-android-optimize.txt"),
+                    "proguard-rules.pro"
             )
         }
     }
