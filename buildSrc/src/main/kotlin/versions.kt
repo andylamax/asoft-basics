@@ -11,7 +11,6 @@ object versions {
 
     object kotlinx {
         const val coroutines = "1.3.5-1.4-M1"
-//        const val serialization = "0.20.0-1.4-M1"
     }
 
     object android {
@@ -22,19 +21,7 @@ object versions {
         const val maps = "17.0.0"
     }
 
-    object firebase {
-        val core = "17.2.1"
-        val firestore = "21.3.0"
-        val auth = "19.1.0"
-        val storage = "19.1.0"
-        val admin = "6.9.0"
-    }
-
     object androidx {
-        //        const val appcompat = "1.1.0"
-//        const val espresso = "3.2.0"
-//        const val test_runner = "1.2.0"
-//        const val test_rules = "1.2.0"
         const val lifecycle = "2.2.0"
         const val fragment = "1.2.2"
         const val appcompat = "1.1.0"
