@@ -22,6 +22,14 @@ object versions {
         const val maps = "17.0.0"
     }
 
+    object firebase {
+        val core = "17.2.1"
+        val firestore = "21.3.0"
+        val auth = "19.1.0"
+        val storage = "19.1.0"
+        val admin = "6.9.0"
+    }
+
     object androidx {
         //        const val appcompat = "1.1.0"
 //        const val espresso = "3.2.0"
