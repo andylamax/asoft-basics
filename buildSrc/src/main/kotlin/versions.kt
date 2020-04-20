@@ -6,7 +6,7 @@ object versions {
     const val gson = "2.8.5"
 
     object asoft {
-        const val core = "1.0.0-alpha3"
+        const val core = "1.0.0-beta-M1"
     }
 
     object kotlinx {

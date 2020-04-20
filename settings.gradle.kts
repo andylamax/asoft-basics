@@ -22,6 +22,9 @@ pluginManagement {
             if (requested.id.id.contains("android")) {
                 useModule("com.android.tools.build:gradle:${versions.android_tools}")
             }
+            if (requested.id.id == "com.jfrog.bintray") {
+                useModule("com.jfrog.bintray.gradle:gradle-bintray-plugin:${requested.version}")
+            }
         }
     }
 }
