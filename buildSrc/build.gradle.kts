@@ -1,5 +1,5 @@
 plugins {
-    id("org.gradle.kotlin.kotlin-dsl") version "1.3.5"
+    `kotlin-dsl`
 }
 
 repositories {
@@ -9,7 +9,8 @@ repositories {
 }
 
 object versions {
-    val kotlin = "1.4-M1"
+    val kotlin = "1.3.72"
+    val jfrog = "1.8.5"
 
     object android {
         const val build_tools = "3.6.0"
@@ -19,4 +20,5 @@ object versions {
 dependencies {
     api("com.android.tools.build:gradle:${versions.android.build_tools}")
     api("org.jetbrains.kotlin:kotlin-gradle-plugin:${versions.kotlin}")
+    api("com.jfrog.bintray.gradle:gradle-bintray-plugin:${versions.jfrog}")
 }

@@ -16,6 +16,10 @@ fun LibraryExtension.configureAndroid() {
     }
 
     buildTypes {
+        getByName("debug") {
+            matchingFallbacks = listOf("release")
+        }
+
         getByName("release") {
             isMinifyEnabled = false
             proguardFiles(
